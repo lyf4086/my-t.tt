@@ -1,0 +1,108 @@
+.main {
+  background: #eeecec;
+  margin-bottom: 1.66666667rem;
+  margin-top: 0.33333333rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.main > div {
+  background: #fff;
+  margin-bottom: 0.5rem;
+  width: 11.66666667rem;
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+.main > div:nth-child(1) {
+  margin-top: 0.5rem;
+}
+.information {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.information .avatar {
+  width: 1.83333333rem;
+  height: 1.83333333rem;
+  border-radius: 50%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+.information .avatar img {
+  width: 100%;
+  vertical-align: middle;
+}
+.information .tele {
+  width: 8.33333333rem;
+  height: 3.33333333rem;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.information .btns {
+  width: 100%;
+  display: flex;
+  border-top: 0.03333333rem solid #f2f2f2;
+}
+.btns > div a {
+  color: #9b9797;
+}
+.btns > div {
+  width: 25%;
+  height: 2rem;
+  text-align: center;
+  font-size: 0.4rem;
+  position: relative;
+  padding-top: 1.16666667rem;
+  box-sizing: border-box;
+  border-right: 0.03333333rem solid #f2f2f2;
+}
+.information .btns a::before {
+  content: '';
+  display: inline-block;
+  width: 0.7rem;
+  height: 0.7rem;
+  position: absolute;
+  top: 0.26666667rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.btns > div:nth-child(4) {
+  border: none;
+}
+.btns > div:nth-child(1) a::before {
+  background: url(../../assets/img/car-icon1.png) no-repeat center;
+  background-size: 0.66666667rem;
+}
+.btns > div:nth-child(2) a::before {
+  background: url(../../assets/img/car-icon2.png) no-repeat center;
+  background-size: 0.66666667rem;
+}
+.btns > div:nth-child(3) a::before {
+  background: url(../../assets/img/car-icon3.png) no-repeat center;
+  background-size: 0.66666667rem;
+}
+.btns > div:nth-child(4) a::before {
+  background: url(../../assets/img/car-icon4.png) no-repeat center;
+  background-size: 0.66666667rem;
+}
+.item {
+  height: 2.33333333rem;
+  display: flex;
+  font-size: 0.53333333rem;
+  color: #928e8e;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.33333333rem;
+  border-bottom: 0.03333333rem solid #f2f2f2;
+}
+.service .item:nth-last-child(1),
+.problem .item:nth-last-child(1),
+.address .item:nth-last-child(1) {
+  border: none;
+}

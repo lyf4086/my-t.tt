@@ -1,0 +1,126 @@
+.topbar {
+  width: 100%;
+  height: 1.66666667rem;
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.66666667rem;
+}
+span:nth-child(1) {
+  width: 2rem;
+  margin-top: -0.5rem;
+}
+span:nth-child(1) i {
+  font-size: 0.4rem;
+  padding: 1vw 2vw;
+  margin-left: 1vw;
+  border: 0.03333333rem solid #fff;
+}
+span:nth-child(2) {
+  font-weight: bold;
+  font-size: 0.53333333rem;
+  width: 6.66666667rem;
+}
+span:nth-child(3) {
+  width: 2rem;
+}
+.text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.main {
+  padding-top: 3.33333333rem;
+  position: absolute;
+}
+img {
+  width: 100%;
+}
+.index-btn {
+  position: fixed;
+  z-index: 99;
+  top: 1.66666667rem;
+  width: 100%;
+  height: 1.66666667rem;
+  background: #999;
+}
+.btn-wrap {
+  position: absolute;
+  width: 11.66666667rem;
+  height: 1.33333333rem;
+  border-radius: 0.2rem;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.03333333rem solid #666;
+  display: flex;
+}
+.btn-wrap button {
+  border: none;
+  font-size: 0.53333333rem;
+  width: 25%;
+  height: 100%;
+}
+.btn-wrap .active {
+  background: #fff;
+}
+.infomation {
+  border-top: 0.2rem solid #ccc;
+  border-bottom: 0.2rem solid #ccc;
+  color: #333;
+  font-size: 0.53333333rem;
+}
+.infomation strong {
+  color: red;
+}
+.img-wrap {
+  border-top: 0.03333333rem solid #ccc;
+}
+.img-wrap h3 {
+  font-size: 0.53333333rem;
+  line-height: 1rem;
+}
+.bottombar {
+  width: 100%;
+  height: 1.66666667rem;
+  background: #fff;
+  box-shadow: -0.03333333rem 0 0.86666667rem #ccc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bottombar button {
+  height: 1.33333333rem;
+  width: 4rem;
+  font-size: 0.46666667rem;
+}
+.bottombar .btn1 {
+  border: 0.03333333rem solid #ccc;
+  background: #fff;
+  color: #ccc;
+}
+.bottombar .btn2 {
+  border: none;
+  color: #fff;
+  background: blue;
+}
+.bottombar span {
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+  background: url(../../../assets/img/car.png) no-repeat;
+  background-size: 100%;
+}
+.bottombar span i {
+  position: absolute;
+  top: 0;
+  left: 0.66666667rem;
+  padding: 0 0.16666667rem;
+  border-radius: 50%;
+  background: red;
+  color: #fff;
+}

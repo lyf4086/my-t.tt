@@ -1,0 +1,137 @@
+
+@rem:30rem;
+
+.topbar{
+  width:100%;
+  height:50/@rem;
+  z-index: 99;
+  display:flex;
+  justify-content:space-between;
+  // background:rgb(247, 245, 245);
+  align-items:center;
+  line-height:50/@rem;
+}
+
+
+ span:nth-child(1){
+  width:60/@rem;
+  margin-top:-15/@rem;
+}
+ span:nth-child(1) i{
+  font-size: 12/@rem;
+  padding:1vw 2vw;
+  margin-left:1vw;
+  border:1/@rem solid #fff
+}
+ span:nth-child(2){
+  font-weight:bold;
+  font-size:16/@rem;
+  width:200/@rem;
+}
+ span:nth-child(3){
+  width:60/@rem;
+}
+ .text{
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+
+.main{
+  padding-top:100/@rem;
+  position:absolute;
+}
+img{
+  width:100%
+}
+.index-btn{
+  position:fixed;
+  z-index:99;
+  top:50/@rem;
+  width:100%;
+  height:50/@rem;
+  background:#999;
+}
+.btn-wrap{
+  position:absolute;
+  width:350/@rem;
+  height:40/@rem;
+  border-radius:6/@rem;
+  overflow:hidden;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  margin:auto;
+  border:1/@rem solid #666;
+  display:flex;
+}
+.btn-wrap button{
+  border:none;
+  font-size:16/@rem;
+  width:25%;
+  height:100%;
+}
+.btn-wrap .active{
+  background:#fff
+}
+.infomation{
+  border-top:6/@rem solid #ccc;
+  border-bottom:6/@rem solid #ccc;
+  color:#333;
+  font-size: 16/@rem
+}
+.infomation strong{
+  color:red;
+}
+.img-wrap{
+  border-top:1/@rem solid #ccc;
+}
+.img-wrap h3{
+  font-size: 16/@rem;
+  line-height: 30/@rem;
+}
+
+
+.bottombar{
+  width:100%;
+  height:50/@rem;
+  background:#fff;
+  box-shadow:-1/@rem 0 26/@rem #ccc;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+
+}
+.bottombar button{
+ height:40/@rem;
+ width:120/@rem;
+ font-size: 14/@rem;
+}
+.bottombar .btn1{
+ border:1/@rem solid #ccc;
+ background:#fff;
+ color:#ccc;
+}
+.bottombar .btn2{
+ border:none;
+ color:#fff;
+ background:blue
+}
+.bottombar span{
+position:relative;
+width:30/@rem;
+height:30/@rem;
+background:url(../../../assets/img/car.png) no-repeat;
+background-size:100%;
+}
+.bottombar span i{
+ position:absolute;
+ top:0;
+ left:20/@rem;
+ padding:0 5/@rem;
+ border-radius:50%;
+ background:red;
+ color:#fff;
+}

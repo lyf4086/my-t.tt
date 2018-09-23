@@ -1,0 +1,33 @@
+.bottombar {
+  width: 100%;
+  height: 1.66666667rem;
+  background: #fff;
+  display: flex;
+  color: #ccc;
+}
+.bottombar img {
+  width: 1rem;
+}
+.bottombar h4 {
+  font-size: 0.4rem;
+  margin-top: -0.26666667rem;
+}
+.bottombar div {
+  width: 25%;
+  text-align: center;
+  position: relative;
+}
+.bottombar div span {
+  position: absolute;
+  top: 0;
+  left: 1.83333333rem;
+  font-size: 0.4rem;
+  opacity: .5;
+  padding: 0rem 0.1rem;
+  border-radius: 0.26666667rem;
+  background: red;
+  color: #fff;
+}
+.active {
+  background: linear-gradient(to bottom, #ebe7e7, transparent);
+}

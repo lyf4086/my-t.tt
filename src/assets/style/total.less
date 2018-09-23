@@ -1,0 +1,125 @@
+
+@rem:30rem;
+
+body,h1,h2,h3,h4,h5,h6,input,ul,dl,dt,dd,ol,p{
+  margin:0;
+  padding:0;
+}
+ul,ol{
+  list-style:none;
+}
+a{text-decoration:none}
+i,em{font-style:normal}
+
+#app{
+  // padding-top:40/@rem;
+  // padding-bottom: 100/@rem;
+  min-height:100%;
+}
+.topbar{
+  position: fixed;
+  top:0;
+
+}
+.bottombar{
+  position: fixed;
+  bottom:0/@rem
+}
+
+
+.topbar{
+  width:100%;
+
+  display:flex;
+  z-index: 99;
+  justify-content:space-between;
+  background:black;
+
+}
+.topbar span{
+  color:#fff;
+  width:50/@rem;
+  height:50/@rem;
+}
+.topbar span:nth-child(1){
+  background:url(../img/list.png) no-repeat 10/@rem 10/@rem;
+  background-size:30/@rem
+}
+.topbar span:nth-child(2){
+   width:75/@rem;
+  height:50/@rem;
+  font-size: 16/@rem;
+  text-align:center;
+  position:relative;
+}
+.topbar span:nth-child(2) i{
+  position:absolute;
+   width:50/@rem;
+  height:50/@rem;
+  left:0;
+  right:0;
+  margin:auto;
+   background:url(../img/t.tt.png) no-repeat 0/@rem -5/@rem;
+  background-size:60/@rem
+}
+.topbar span:nth-child(2) strong{
+  position:absolute;
+  width:100%;
+  left:0;
+  line-height:50/@rem;
+
+}
+.topbar span:nth-child(3){
+  width:50/@rem;
+  background: url(../img/search.png) no-repeat 10/@rem 10/@rem;
+  background-size:30/@rem;
+}
+
+.backImg(@x:0,@y:0){
+  background:url(../img/nav-icons.png) no-repeat @x @y ;
+  background-size: 100/@rem;
+};
+
+.topbar .list{
+  position: absolute;
+  top:50/@rem;
+  height:0;
+  width:100%;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  transition: 0.5s;
+  background: rgba(0,0,0,0.9)
+}
+.list .item{
+  width:93/@rem;
+  height:30/@rem;
+  padding-top:60/@rem;
+  box-shadow: 0 0 1/@rem #ccc inset
+
+}
+.list .item p{
+  font-size: 12/@rem;
+  width:100%;
+  text-align: center;
+  color:#fff;
+}
+.list .item:nth-child(1){
+  .backImg
+}
+.list .item:nth-child(2){
+  .backImg(0,-160/@rem)
+}
+.list .item:nth-child(3){
+  .backImg(0,-240/@rem)
+}
+.list .item:nth-child(4){
+  .backImg(0,-320/@rem)
+}
+.list .item:nth-child(5){
+  .backImg(0,-560/@rem)
+}
+.list .item:nth-child(6){
+  .backImg(0,-400/@rem)
+}

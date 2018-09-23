@@ -1,0 +1,24 @@
+.login {
+  padding-top: 3.33333333rem;
+  text-align: center;
+}
+.floor {
+  width: 10rem;
+  height: 2rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.6rem;
+}
+.floor input {
+  padding: 0.2rem;
+  border: 0.03333333rem solid #555;
+}
+input::selected {
+  outline: none;
+}
+span {
+  font-size: 0.4rem;
+  color: #ccc;
+}

@@ -1,0 +1,131 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+ul,
+dl,
+dt,
+dd,
+ol,
+p {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+i,
+em {
+  font-style: normal;
+}
+#app {
+  min-height: 100%;
+}
+.topbar {
+  position: fixed;
+  top: 0;
+}
+.bottombar {
+  position: fixed;
+  bottom: 0rem;
+}
+.topbar {
+  width: 100%;
+  display: flex;
+  z-index: 99;
+  justify-content: space-between;
+  background: black;
+}
+.topbar span {
+  color: #fff;
+  width: 1.66666667rem;
+  height: 1.66666667rem;
+}
+.topbar span:nth-child(1) {
+  background: url(../img/list.png) no-repeat 0.33333333rem 0.33333333rem;
+  background-size: 1rem;
+}
+.topbar span:nth-child(2) {
+  width: 2.5rem;
+  height: 1.66666667rem;
+  font-size: 0.53333333rem;
+  text-align: center;
+  position: relative;
+}
+.topbar span:nth-child(2) i {
+  position: absolute;
+  width: 1.66666667rem;
+  height: 1.66666667rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: url(../img/t.tt.png) no-repeat 0rem -0.16666667rem;
+  background-size: 2rem;
+}
+.topbar span:nth-child(2) strong {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  line-height: 1.66666667rem;
+}
+.topbar span:nth-child(3) {
+  width: 1.66666667rem;
+  background: url(../img/search.png) no-repeat 0.33333333rem 0.33333333rem;
+  background-size: 1rem;
+}
+.topbar .list {
+  position: absolute;
+  top: 1.66666667rem;
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  transition: 0.5s;
+  background: rgba(0, 0, 0, 0.9);
+}
+.list .item {
+  width: 3.1rem;
+  height: 1rem;
+  padding-top: 2rem;
+  box-shadow: 0 0 0.03333333rem #ccc inset;
+}
+.list .item p {
+  font-size: 0.4rem;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.list .item:nth-child(1) {
+  background: url(../img/nav-icons.png) no-repeat 0 0;
+  background-size: 3.33333333rem;
+}
+.list .item:nth-child(2) {
+  background: url(../img/nav-icons.png) no-repeat 0 -5.33333333rem;
+  background-size: 3.33333333rem;
+}
+.list .item:nth-child(3) {
+  background: url(../img/nav-icons.png) no-repeat 0 -8rem;
+  background-size: 3.33333333rem;
+}
+.list .item:nth-child(4) {
+  background: url(../img/nav-icons.png) no-repeat 0 -10.66666667rem;
+  background-size: 3.33333333rem;
+}
+.list .item:nth-child(5) {
+  background: url(../img/nav-icons.png) no-repeat 0 -18.66666667rem;
+  background-size: 3.33333333rem;
+}
+.list .item:nth-child(6) {
+  background: url(../img/nav-icons.png) no-repeat 0 -13.33333333rem;
+  background-size: 3.33333333rem;
+}
